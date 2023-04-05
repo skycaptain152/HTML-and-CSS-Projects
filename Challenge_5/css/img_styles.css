@@ -1,0 +1,98 @@
+.image {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.container:hover .center {
+    opacity: 1;
+}
+
+.image2 {
+    filter: grayscale(100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 25px 10px 25px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    background-color: rgb(55, 112, 159);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: rgb(107, 7, 31);
+    opacity: 0;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #fff;
+    opacity: 1;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container {
+    position: relative;
+}
+
+.navbar a {
+    display: inline-block;
+    background-color: rgb(55, 112, 159);
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
+
+.navbar a p:hover {
+    background-color: rgb(107, 7, 31);
+    color: aqua;
+    cursor: pointer;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    color: rgb(107, 7, 31)
+}  
+
+p:hover {
+    color: rgb(107, 7, 31)
+}
+
